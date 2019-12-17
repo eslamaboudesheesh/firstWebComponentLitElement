@@ -8,6 +8,8 @@ export class HelloElement extends LitElement {
   @property() name;
 
   render() {
-    return html`<div>Hello ${this.name}</div>`;
+    return html`<div>Hello ${this.name}</div>
+     <h1>hello </h1>
+     `;
   }
 }
