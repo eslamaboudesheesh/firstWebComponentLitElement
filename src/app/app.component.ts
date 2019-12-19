@@ -1,15 +1,12 @@
 import { Component } from '@angular/core';
-import { HelloElement } from './hello-element';
+ import { windowsloader } from './windows-loader';
 
-console.assert(HelloElement !== undefined);
+ console.assert(windowsloader !== undefined);
 
 @Component({
   selector: 'my-app',
-  template: `
-    <p>⬇️This is a LitElement inside an Angular component!</p>
-    <hello-world name="{{ name }}"></hello-world>
-  `
+  templateUrl: "./app.component.html" 
 })
 export class AppComponent  {
-  name = 'Angular and LitElement';
+  name = 'my first component Windows loader';
 }
